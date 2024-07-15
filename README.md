@@ -1,5 +1,10 @@
 # hdhr-ac4 v1.5.0
 
+## Differences in this fork
+
+* The Dockerfile has been somewhat simplified, updated to always use latest versions, and support multiple patforms
+* I am publishing both amd64 and arm64 builds to GHCR
+
 ## Update
 
 > **May 2024** Added docker image to GitHub Container Registry. This can be used instead of building your own. It was built using the latest repo and "emby-server-deb_4.8.0.21_amd64.deb" for ffmpeg.
