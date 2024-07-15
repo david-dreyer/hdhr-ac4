@@ -1,5 +1,5 @@
 # This doesn't need to be the python image, but using it just so we are running the same OS as final
-FROM python:3 as ffmpeg
+FROM python:3 AS ffmpeg
 ARG TARGETARCH
 
 WORKDIR /home
